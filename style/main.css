@@ -3,8 +3,6 @@ body {
 	background-size: cover;
 	font-family: trebuchet ms;
 	font-weight: bold;
-	margin: 0px 0px;
-	padding: 0px 0px;
 	color: white;
 }
 
@@ -16,17 +14,20 @@ a.imageLink {
     text-decoration: none;
 }
 
+nav {
+	margin-right: 45px;
+}
+
 nav ul li {
 	display: inline-block;
-	padding: 7px 15px;
-	list-style-type: none;
+	padding: 12px 20px;
 	font-size: 18px;
 }
 
 nav ul li .selected {
-	color: white;
-	background: darkred;
-	padding: 7px 20px;
+	padding: 12px 20px;
+	background-color: darkred;
+	font-size: 18px;
 }
 
 nav ul li a {
