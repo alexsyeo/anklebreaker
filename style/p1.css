@@ -4,7 +4,7 @@ a:hover, a:visited, a:link, a:active, a.imageLink
 }
 
 body {
-	background-image: url("../images/blazers.jpg");
+	background-image: url("../images/background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -12,7 +12,7 @@ body {
 
 	font-family: trebuchet ms;
 	font-weight: bold;
-	color: white;
+	color: black;
 }
 
 nav {
@@ -27,24 +27,28 @@ nav ul li {
 
 nav ul li .selected {
 	padding: 12px 20px;
-	background-color: darkred;
+	background-color: greenyellow;
 	font-size: 18px;
 }
 
 nav ul li a {
-	color: white;
+	color: black;
 }
 
 ul {
- list-style: none;
+    list-style: none;
 }
 
-.left-body a {
-	position : relative;
-	left: 200px;
-	color: white;
-}
-
-footer {
-	clear: both;
+p {
+    color: black;
+    /* display: flex;
+    justify-content: center; */
+    line-height: 250%;
+    /* word-wrap: break-word; */
+    /* width: 100px; */
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 600px;
+    margin-right: 600px;
+    /* font-size: 18px; */
 }
