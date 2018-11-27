@@ -43,7 +43,7 @@ p {
     /* word-wrap: break-word; */
     /* width: 100px; */
     /* text-align: center; */
-    text-indent: 50px;
+    /* text-indent: 50px; */
     margin-top: 70px;
     margin-left: 28%;
     margin-right: 28%;
@@ -68,6 +68,13 @@ p a {
 }
 
 img.topgolf {
+    width: 45%;
+    height: 45%;
+    display: block;
+    margin: 0 auto;
+}
+
+img.torrey {
     width: 45%;
     height: 45%;
     display: block;
