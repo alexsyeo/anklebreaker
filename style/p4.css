@@ -1,0 +1,97 @@
+a:hover, a:visited, a:link, a:active, a.imageLink
+{
+    text-decoration: none;
+}
+
+body {
+	height: 100%;
+
+    font-family: 'Roboto Mono', monospace;
+	/* font-weight: bold; */
+	color: black;
+}
+
+nav {
+	margin-right: 45px;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 12px 20px;
+	font-size: 18px;
+}
+
+nav ul li .selected {
+	padding: 12px 20px;
+	background-color: peru;
+	font-size: 18px;
+}
+
+nav ul li a {
+	color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    color: black;
+    /* display: flex;
+    justify-content: center; */
+    line-height: 300%;
+    /* word-wrap: break-word; */
+    /* width: 100px; */
+    /* text-align: center; */
+    text-indent: 50px;
+    margin-top: 70px;
+    margin-left: 28%;
+    margin-right: 28%;
+    /* font-size: 18px; */
+}
+
+p a {
+	color: peru;
+}
+
+.left-body {
+	opacity: 0.2;
+	filter: alpha(opacity=50);
+	position: relative;
+	z-index: 1;
+	background: #FFFFFF;
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+img.topgolf {
+    width: 45%;
+    height: 45%;
+    display: block;
+    margin: 0 auto;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+figure figcaption.n {
+    text-align: center;
+    margin-top: -40px;
+}
+
+figure figcaption {
+    text-align: center;
+    margin-top: 30px;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
