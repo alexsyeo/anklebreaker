@@ -5,10 +5,13 @@ a:hover, a:visited, a:link, a:active, a.imageLink
 
 body {
 	height: 100%;
-
-    font-family: 'Roboto Mono', monospace;
-	/* font-weight: bold; */
+    font-family: 'Electrolize', sans-serif;
+	font-weight: bold;
 	color: black;
+}
+
+header {
+    font-family: 'Electrolize', sans-serif;
 }
 
 nav {
@@ -23,7 +26,7 @@ nav ul li {
 
 nav ul li .selected {
 	padding: 12px 20px;
-	background-color: peru;
+	background-color: greenyellow;
 	font-size: 18px;
 }
 
@@ -35,23 +38,31 @@ ul {
     list-style: none;
 }
 
-p {
+.intro {
     color: black;
-    /* display: flex;
-    justify-content: center; */
-    line-height: 300%;
-    /* word-wrap: break-word; */
-    /* width: 100px; */
-    /* text-align: center; */
-    /* text-indent: 50px; */
+    line-height: 150%;
+    text-align: center;
     margin-top: 70px;
     margin-left: 28%;
     margin-right: 28%;
-    /* font-size: 18px; */
+}
+
+p {
+    color: black;
+    line-height: 200%;
+    margin-top: 40px;
+    margin-left: 28%;
+    margin-right: 28%;
+}
+
+.title {
+    margin-top: 70px;
+    margin-left: 28%;
+    margin-right: 28%;
 }
 
 p a {
-	color: peru;
+	color: red;
 }
 
 .left-body {
@@ -67,20 +78,6 @@ p a {
 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
-img.topgolf {
-    width: 45%;
-    height: 45%;
-    display: block;
-    margin: 0 auto;
-}
-
-img.torrey {
-    width: 45%;
-    height: 45%;
-    display: block;
-    margin: 0 auto;
-}
-
 img {
     width: 50%;
     height: 50%;
@@ -88,22 +85,12 @@ img {
     margin: 0 auto;
 }
 
+img.unc {
+    margin-top: 50px;
+}
+
 figure figcaption.n {
     text-align: center;
-    margin-top: -40px;
-}
-
-figure figcaption {
-    text-align: center;
-    margin-top: 30px;
-}
-
-img.center {
-    display: block;
-    margin: 0 auto;
-}
-
-.tiger {
-    display: block;
-    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
 }
