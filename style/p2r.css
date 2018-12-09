@@ -26,7 +26,7 @@ nav ul li {
 
 nav ul li .selected {
 	padding: 12px 20px;
-	background-color: greenyellow;
+	background-color: red;
 	font-size: 18px;
 }
 

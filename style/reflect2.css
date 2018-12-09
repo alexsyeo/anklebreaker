@@ -22,7 +22,7 @@ nav ul li {
 
 nav ul li .selected {
 	padding: 12px 20px;
-	background-color: greenyellow;
+	background-color: red;
 	font-size: 18px;
 }
 
@@ -37,25 +37,6 @@ ul {
 p {
     color: black;
     line-height: 250%;
-    text-align: center;
     margin-top: 70px;
-    margin-left: 28%;
-    margin-right: 28%;
+    margin-left: 10%;
 }
-
-p a {
-	color: red;
-}
-
-.left-body {
-	opacity: 0.2;
-	filter: alpha(opacity=50);
-	position: relative;
-	z-index: 1;
-	background: #FFFFFF;
-	max-width: 360px;
-	margin: 0 auto 100px;
-	padding: 45px;
-	text-align: center;
-	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-  }
