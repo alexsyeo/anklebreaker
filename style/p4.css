@@ -11,6 +11,10 @@ body {
 	color: black;
 }
 
+header {
+    font-family: 'Schoolbell', cursive;
+}
+
 nav {
 	margin-right: 45px;
 }
@@ -27,6 +31,10 @@ nav ul li .selected {
 	font-size: 18px;
 }
 
+.title {
+    font-family: 'Schoolbell', cursive;
+}
+
 nav ul li a {
 	color: black;
 }
@@ -37,21 +45,19 @@ ul {
 
 p {
     color: black;
-    /* display: flex;
-    justify-content: center; */
-    line-height: 300%;
-    /* word-wrap: break-word; */
-    /* width: 100px; */
-    /* text-align: center; */
-    /* text-indent: 50px; */
-    margin-top: 70px;
+    line-height: 200%;
+    margin-top: 35px;
     margin-left: 28%;
     margin-right: 28%;
-    /* font-size: 18px; */
 }
 
 p a {
 	color: peru;
+}
+
+.title {
+    margin-left: 28%;
+    margin-right: 28%;
 }
 
 .left-body {
@@ -68,42 +74,48 @@ p a {
 }
 
 img.topgolf {
-    width: 45%;
-    height: 45%;
-    display: block;
-    margin: 0 auto;
+    margin-top: 40px;
+}
+
+img.old_course {
+    margin-top: 40px;
 }
 
 img.torrey {
-    width: 45%;
-    height: 45%;
+    margin-top: 40px;
+    width: 50%;
+    height: 50%;
     display: block;
-    margin: 0 auto;
+}
+
+img.tiger_1996 {
+    margin-top: 40px;
+    width: 55%;
+    height: 55%;
+}
+
+img.first_tee {
+    margin-top: 40px;
+    width: 55%;
+    height: 55%;
 }
 
 img {
-    width: 50%;
-    height: 50%;
+    margin-top: 80px;
+    width: 60%;
+    height: 60%;
     display: block;
     margin: 0 auto;
 }
 
 figure figcaption.n {
     text-align: center;
-    margin-top: -40px;
-}
-
-figure figcaption {
-    text-align: center;
-    margin-top: 30px;
-}
-
-img.center {
-    display: block;
-    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 13px;
 }
 
 .tiger {
+    margin-top: 40px;
     display: block;
     text-align: center;
 }
